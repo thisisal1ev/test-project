@@ -13,7 +13,7 @@ export default function () {
             <h3 className="mb-4 text-xl lg:text-lg text-black font-bold">About us</h3>
             <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#direction">Direction</Link>
 
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Command</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#command">Command</Link>
 
             <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Tools</Link>
 

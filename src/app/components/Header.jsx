@@ -5,13 +5,15 @@ export default function () {
   return (
     <header className="border-b-2 py-4 fixed w-full top-0 z-10 bg-white">
       <div className="content-container flex items-center justify-between">
-        <Image width={96} height={32} src="/udevs-logo.svg" alt="udevs logo" />
+        <Link href="/">
+          <Image width={96} height={32} src="/udevs-logo.svg" alt="udevs logo" />
+        </Link>
 
         <nav className="hidden items-center justify-between space-x-8 lg:flex">
 
           <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#direction">Direction</Link>
 
-          <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#">Command</Link>
+          <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#command">Command</Link>
 
           <Link className="font-bold inline-flex items-center leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#">
             <span className="mr-1">Services</span>
