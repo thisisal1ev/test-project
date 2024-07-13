@@ -16,6 +16,9 @@ module.exports = {
         skyBlue: "#01CAB0",
         bgWhite: "#F4F7FF",
       },
+      maxWidth: {
+        base: "1140px",
+      },
     },
   },
   plugins: [],

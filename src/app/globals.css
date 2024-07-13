@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+    @apply font-normal text-mainBlack font-sans text-sm
+  }
+}
+
+@layer components {
+  .content-container{
+    @apply w-full max-w-base mx-auto px-5
+  }
+}
