@@ -1,4 +1,5 @@
 //components
+import Clients from "./components/Clients";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -14,9 +15,7 @@ export default function () {
       <Hero />
       <Services />
       <Team />
-      {/* <div className="fixed w-14 h-14 right-6 bottom-6 rounded-3xl opacity-100 bg-blue">
-        <button></button>
-      </div> */}
+      <Clients />
       <Portfolios />
       <Contact />
       <Footer />

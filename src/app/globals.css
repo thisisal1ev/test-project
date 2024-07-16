@@ -22,10 +22,14 @@
   }
 
   .wrapper:nth-child(even) .wrapper-item {
-    @apply md:flex-row-reverse
+    @apply md:flex-row
   }
 
   .wrapper:nth-child(odd) .wrapper-item {
-    @apply md:flex-row
+    @apply md:flex-row-reverse
+  }
+
+  .card-shadow {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .15);
   }
 }

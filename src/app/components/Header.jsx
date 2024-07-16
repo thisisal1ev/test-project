@@ -42,9 +42,9 @@ export default function () {
 
           <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#">Tools</Link>
 
-          <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#">Clients</Link>
+          <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#clients">Clients</Link>
 
-          <Link className="font-bold inline-flex items-center leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#">
+          <Link className="font-bold inline-flex items-center leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#Delever">
             <span className="mr-1">Portfolio</span>
             <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_1_2994)">
@@ -91,7 +91,7 @@ export default function () {
         </button>
 
         {
-          openMenu && <div className={`fixed opacity-100 flex flex-col z-50 w-full h-screen right-0 top-0 bg-bgWhite ${openMenu && "-translate-x-0 transform transition-all duration-300 ease-in-out"}`}>
+          openMenu && <div className={`fixed flex flex-col z-50 w-full h-screen right-0 top-0 bg-bgWhite ${openMenu && "-translate-x-0 transform transition-all duration-300 ease-in-out"}`}>
 
             <div className="content-container flex items-center justify-between py-4">
               <Image width={96} height={32} src="/udevs-logo.svg" alt="udevs logo" />
@@ -102,8 +102,8 @@ export default function () {
             </div>
 
             <div className="content-container grow flex items-center justify-center flex-col">
-              <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#">Services</Link>
-              <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#">Clients</Link>
+              <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#services">Services</Link>
+              <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#clients">Clients</Link>
               <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#command">Command</Link>
             </div>
 
@@ -112,7 +112,7 @@ export default function () {
 
               <div className="flex items-center justify-center space-x-6 my-10">
                 <a className="bg-blue p-1 rounded-full" href="#" target="_blank">
-                  <svg fill="#fff" width={27} height={27} class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" ariaHidden="true"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg>
+                  <svg fill="#fff" width={27} height={27} className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg>
                 </a>
 
                 <a className="bg-blue p-1 rounded-full" href="#" target="_blank">
@@ -120,7 +120,7 @@ export default function () {
                 </a>
 
                 <a className="bg-blue p-1 rounded-full" href="https://www.youtube.com/@thisisal1ev" target="_blank">
-                  <svg fill="#fff" width={27} height={27} className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" ariaHidden="true"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"></path></svg>
+                  <svg fill="#fff" width={27} height={27} className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"></path></svg>
                 </a>
               </div>
             </div>

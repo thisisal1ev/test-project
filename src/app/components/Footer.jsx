@@ -16,8 +16,8 @@ export default function () {
             <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#command">Command</Link>
 
             <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Tools</Link>
-
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Clients</Link>
+    
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#clients">Clients</Link>
           </div>
           <div className="flex flex-col">
             <h3 className="mb-4 text-xl lg:text-lg text-black font-bold">Services</h3>

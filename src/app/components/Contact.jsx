@@ -8,6 +8,7 @@ export default function () {
           Contact us
         </h2>
         <div className="mt-20 flex justify-between flex-col lg:flex-row lg:pt-10 lg:pb-20 lg:px-24 rounded-lg lg:form-shadow">
+
           <form className="space-y-5 flex flex-col w-full mb-7 lg:mb-0">
             <h3 className="text-xl leading-7 font-bold">Leave us a message</h3>
             <input className="py-4 px-3 border-2 outline-none rounded-md lg:max-w-96 focus:border-slate" type="text" placeholder="Name" required />
@@ -15,6 +16,7 @@ export default function () {
             <textarea rows={3} className="resize-none py-4 px-3 border-2 outline-none rounded-md lg:max-w-96 focus:border-slate" placeholder="Briefly describe your project"></textarea>
             <button className="w-64 mx-auto text-center rounded-md bg-blue text-white text-xl px-4 py-2 hover:scale-110 transition-transform duration-300 inline-block lg:ml-0">Send</button>
           </form>
+
           <div className="space-y-6">
             <ul className="space-y-6 lg:mb-5">
               <li className="flex items-center space-x-2">
@@ -52,6 +54,7 @@ export default function () {
               style={{ color: "white", fontSize: 12, position: "absolute", top: 12 }}>Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.com/map-widget/v1/?from=mapframe&ll=69.302599%2C41.334695&source=mapframe&um=constructor%3A3d9eefa927bd54bcc9e8fa398a73c8cafb60622737263c96ad9341c32c21fa69&utm_source=mapframe&z=16.32" width="400" height="200" frameBorder="1" allowFullScreen={true} style={{ position: "relative" }}></iframe>
             </div>
           </div>
+
         </div>
       </div>
     </section >
