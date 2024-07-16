@@ -33,13 +33,13 @@ export default function () {
           </div>
           <div className="flex flex-col">
             <h3 className="mb-4 text-xl lg:text-lg text-black font-bold">Portfolio</h3>
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Delever</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#Delever">Delever</Link>
 
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Sms.uz</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#Smsuz.uz">Sms.uz</Link>
 
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Goodzone</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#Goodzone">Goodzone</Link>
 
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Iman</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#IMAN">Iman</Link>
           </div>
         </div>
         <div className="lg:border-t lg:border-blue lg:flex flex-col items-center justify-between py-6 lg:flex-row">

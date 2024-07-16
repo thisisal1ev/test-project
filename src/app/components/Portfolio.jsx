@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ({ portfolio }) {
   return (
-    <section className="py-20 wrapper">
+    <section id={portfolio.projectName} className="py-20 wrapper">
       <div className="content-container md:flex flex-col items-center justify-between wrapper-item">
         <Image src={portfolio.screen} width={500} height={407} alt={portfolio.projectName + " img"} />
         <div className="space-y-6 block">
