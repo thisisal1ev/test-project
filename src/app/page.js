@@ -8,6 +8,7 @@ import Portfolios from "./components/Portfolios";
 import Services from "./components/Services";
 import ServicesWr from "./components/ServicesWr";
 import Team from "./components/Team";
+import Wokr from "./components/Wokr";
 
 export default function () {
   return (
@@ -19,6 +20,7 @@ export default function () {
       <ServicesWr />
       <Clients />
       <Portfolios />
+      <Wokr />
       <Contact />
       <Footer />
     </>
