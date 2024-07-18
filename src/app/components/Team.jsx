@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 
 export default function () {
   return (
-    <section id="command" className="py-20">
+    <section id="command" className="py-20 bg-bgWhite">
       <div className="content-container flex flex-col items-start justify-between lg:items-center lg:flex-row">
         <div className="mr-0 contents lg:block lg:mr-10 space-y-6">
           <h2 className="mb-20 -order-2 text-blue text-3xl lg:text-[60px] font-extrabold lg:order-none">Team</h2>

@@ -16,20 +16,20 @@ export default function () {
             <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#command">Command</Link>
 
             <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Tools</Link>
-    
+
             <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#clients">Clients</Link>
           </div>
           <div className="flex flex-col">
             <h3 className="mb-4 text-xl lg:text-lg text-black font-bold">Services</h3>
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Development of mobile applications</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#Development of mobile applications">Development of mobile applications</Link>
 
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Development and implementation ERP systems</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#ERP systems">Development and implementation ERP systems</Link>
 
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">User interface, User experience design</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#UI / UX design">User interface, User experience design</Link>
 
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">IT consulting</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#IT consulting">IT consulting</Link>
 
-            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#">Optimization IT consulting infrastructure</Link>
+            <Link className="inline-block text-blue text-lg leading-8 hover:underline" href="#Optimization Infrastructure">Optimization IT consulting infrastructure</Link>
           </div>
           <div className="flex flex-col">
             <h3 className="mb-4 text-xl lg:text-lg text-black font-bold">Portfolio</h3>

@@ -164,3 +164,229 @@ export const portfolios = [
     ],
   },
 ];
+
+export const service = [
+  {
+    id: 1,
+    title: `Development of mobile applications`,
+    text: `In collaboration with startups, we have learned how to create a creative and functional user interface for mobile applications.`,
+    img1: "/mobile-app.png",
+    img2: "/bg.png",
+    tools: [
+      {
+        id: 1,
+        img: "/ios.svg",
+        context: "iOS",
+      },
+      {
+        id: 2,
+        img: "/android.svg",
+        context: "Android",
+      },
+      {
+        id: 3,
+        img: "/cross-platform.svg",
+        context: "Crossplatform",
+      },
+    ],
+    technologies: [
+      {
+        id: 1,
+        name: `Swift`,
+        img: `/swift.svg`,
+      },
+      {
+        id: 2,
+        name: `Kotlin`,
+        img: `/kotlin.svg`,
+      },
+      {
+        id: 3,
+        name: `Flutter`,
+        img: `/flutter.svg`,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: `ERP systems`,
+    text: `IT Systems of any level of complexity at a convenient time for you`,
+    img1: "/erp.png",
+    img2: "/bg.png",
+    tools: [
+      {
+        id: 1,
+        img: "/crm.svg",
+        context: "CRM",
+      },
+      {
+        id: 2,
+        img: "/learning.svg",
+        context: "eLearning",
+      },
+      {
+        id: 3,
+        img: "/commerce.svg",
+        context: "E-Commerce",
+      },
+      {
+        id: 4,
+        img: "/pos.svg",
+        context: "POS",
+      },
+      {
+        id: 5,
+        img: "/sms.svg",
+        context: "Sms / Email",
+      },
+      {
+        id: 3,
+        img: "/ware.svg",
+        context: "Warehouse",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: `UI / UX design`,
+    text: `Our company takes a human-centered approach to design`,
+    img1: "/ux.png",
+    img2: "/bg.png",
+    tools: [
+      {
+        id: 1,
+        img: "/uxd.svg",
+        context: "UX",
+      },
+      {
+        id: 2,
+        img: "/uid.svg",
+        context: "UI",
+      },
+      {
+        id: 3,
+        img: "/protype.svg",
+        context: "Prototyping",
+      },
+      {
+        id: 4,
+        img: "/mobile-design.svg",
+        context: "Mobile Design",
+      },
+      {
+        id: 5,
+        img: "/web-design.svg",
+        context: "Web Design",
+      },
+      {
+        id: 6,
+        img: "/atom.svg",
+        context: "Atomic Design",
+      },
+    ],
+    technologies: [
+      {
+        id: 1,
+        name: `Figma`,
+        img: `/figma.svg`,
+      },
+      {
+        id: 2,
+        name: `Sketch`,
+        img: `/sk.svg`,
+      },
+      {
+        id: 3,
+        name: `Lottie`,
+        img: `/lot.svg`,
+      },
+      {
+        id: 3,
+        name: `Illustrator`,
+        img: `/ill.svg`,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: `Optimization Infrastructure`,
+    text: `Our experienced professionals will help you optimize your infrastructure`,
+    img1: "/optimizationS.png",
+    img2: "/bg.png",
+    tools: [
+      {
+        id: 1,
+        img: "/arch.svg",
+        context: "Architecture",
+      },
+      {
+        id: 2,
+        img: "/test.svg",
+        context: "Auto testing",
+      },
+      {
+        id: 3,
+        img: "/stress.svg",
+        context: "Stress testing",
+      },
+      {
+        id: 4,
+        img: "/load.svg",
+        context: "Load testing",
+      },
+      {
+        id: 5,
+        img: "/dev.svg",
+        context: "Devops",
+      },
+      {
+        id: 6,
+        img: "/cloud.svg",
+        context: "Cloud",
+      },
+      {
+        id: 7,
+        img: "/ci.svg",
+        context: "CI / CD",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: `IT consulting`,
+    text: `We can improve the qualifications of your employees thereby increasing the efficiency of your company`,
+    img1: "/consultingS.svg",
+    tools: [
+      {
+        id: 1,
+        img: "/front.svg",
+        context: "Frontend",
+      },
+      {
+        id: 2,
+        img: "/back.svg",
+        context: "Backend",
+      },
+      {
+        id: 3,
+        img: "/arch.svg",
+        context: "Architecture",
+      },
+      {
+        id: 4,
+        img: "/dev.svg",
+        context: "DevOps",
+      },
+      {
+        id: 5,
+        img: "/uiux.svg",
+        context: "UX/UI",
+      },
+      {
+        id: 6,
+        img: "/qa.svg",
+        context: "QA",
+      },
+    ],
+  },
+];

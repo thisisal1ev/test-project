@@ -21,7 +21,7 @@ export default function () {
 
           <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#command">Command</Link>
 
-          <Link className="font-bold inline-flex items-center leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#">
+          <Link className="font-bold inline-flex items-center leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#Development of mobile applications">
             <span className="mr-1">Services</span>
             <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_1_2994)">
@@ -102,7 +102,7 @@ export default function () {
             </div>
 
             <div className="content-container grow flex items-center justify-center flex-col">
-              <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#services">Services</Link>
+              <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#Development of mobile applications">Services</Link>
               <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#clients">Clients</Link>
               <Link onClick={() => setOpenMenu(prev => !prev)} className="text-3xl text-center font-extrabold leading-[54px] mx-4" href="#command">Command</Link>
             </div>

@@ -13,6 +13,7 @@ module.exports = {
         mainBlack: "#18191F",
         orange: "#FF5722",
         bgWhite: "#F4F7FF",
+        secondry: "#e0e8ff",
         br: {
           goodzone: "#F50000",
           delever: "#FF5722",

@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Portfolios from "./components/Portfolios";
 import Services from "./components/Services";
+import ServicesWr from "./components/ServicesWr";
 import Team from "./components/Team";
 
 export default function () {
@@ -15,6 +16,7 @@ export default function () {
       <Hero />
       <Services />
       <Team />
+      <ServicesWr />
       <Clients />
       <Portfolios />
       <Contact />
