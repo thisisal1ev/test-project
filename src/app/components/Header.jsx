@@ -1,4 +1,5 @@
 "use client"
+import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -21,66 +22,183 @@ export default function () {
 
           <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#command">Command</Link>
 
-          <Link className="font-bold inline-flex items-center leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#Development of mobile applications">
-            <span className="mr-1">Services</span>
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clipPath="url(#clip0_1_2994)">
-                <g clipPath="url(#clip1_1_2994)">
-                  <path d="M9.37732 4.64645C9.58885 4.45118 9.93182 4.45118 10.1433 4.64645C10.3549 4.84171 10.3549 5.15829 10.1433 5.35355L6.89335 8.35355C6.68829 8.54284 6.3581 8.54947 6.14432 8.36858L2.89432 5.61858C2.67379 5.43198 2.6589 5.1157 2.86104 4.91214C3.06319 4.70858 3.40583 4.69483 3.62635 4.88142L6.49404 7.30793L9.37732 4.64645Z" fill="black" />
-                </g>
-              </g>
-              <defs>
-                <clipPath id="clip0_1_2994">
-                  <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
-                </clipPath>
-                <clipPath id="clip1_1_2994">
-                  <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
-                </clipPath>
-              </defs>
-            </svg>
-          </Link>
+          <Dropdown>
+            <DropdownTrigger>
+              <Button
+                className="font-bold inline-flex rounded-none outline-none leading-5 py-2 px-0 border-b-2 border-transparent hover:border-b-2 hover:border-blue"
+                variant="light"
+              >
+                Services
+
+                <svg className="ml-2" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_2994)">
+                    <g clipPath="url(#clip1_1_2994)">
+                      <path d="M9.37732 4.64645C9.58885 4.45118 9.93182 4.45118 10.1433 4.64645C10.3549 4.84171 10.3549 5.15829 10.1433 5.35355L6.89335 8.35355C6.68829 8.54284 6.3581 8.54947 6.14432 8.36858L2.89432 5.61858C2.67379 5.43198 2.6589 5.1157 2.86104 4.91214C3.06319 4.70858 3.40583 4.69483 3.62635 4.88142L6.49404 7.30793L9.37732 4.64645Z" fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_2994">
+                      <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_2994">
+                      <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </Button>
+
+
+            </DropdownTrigger>
+            <DropdownMenu aria-label="Static Actions">
+
+              <DropdownItem key="new">
+                <Link className="flex items-center space-x-3" href="#Development of mobile applications">
+                  <Image src="/mobile-link.svg" width={48} height={48} alt="icon" />
+                  <span>Development of mobile applications</span>
+                </Link>
+              </DropdownItem>
+
+              <DropdownItem key="copy">
+                <Link className="flex items-center space-x-3" href="#ERP systems">
+                  <Image src="/development-link.svg" width={48} height={48} alt="icon" />
+                  <span>Development of mobile applications</span>
+                </Link>
+              </DropdownItem>
+
+              <DropdownItem key="edit">
+                <Link className="flex items-center space-x-3" href="#UI / UX design">
+                  <Image src="/ui-link.svg" width={48} height={48} alt="icon" />
+                  <span>User interface, User experience design</span>
+                </Link>
+              </DropdownItem>
+
+              <DropdownItem key="delete">
+                <Link className="flex items-center space-x-3" href="#IT consulting">
+                  <Image src="/consulting-link.svg" width={48} height={48} alt="icon" />
+                  <span>IT consulting</span>
+                </Link>
+              </DropdownItem>
+
+              <DropdownItem key="delete">
+                <Link className="flex items-center space-x-3"
+                  href="#Optimization Infrastructure">
+                  <Image src="/optimization-link.svg" width={48} height={48} alt="icon" />
+                  <span>Optimization IT consulting Infrastructure</span>
+                </Link>
+              </DropdownItem>
+
+            </DropdownMenu>
+          </Dropdown>
 
           <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#">Tools</Link>
 
           <Link className="font-bold inline-block leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#clients">Clients</Link>
 
-          <Link className="font-bold inline-flex items-center leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#Delever">
-            <span className="mr-1">Portfolio</span>
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clipPath="url(#clip0_1_2994)">
-                <g clipPath="url(#clip1_1_2994)">
-                  <path d="M9.37732 4.64645C9.58885 4.45118 9.93182 4.45118 10.1433 4.64645C10.3549 4.84171 10.3549 5.15829 10.1433 5.35355L6.89335 8.35355C6.68829 8.54284 6.3581 8.54947 6.14432 8.36858L2.89432 5.61858C2.67379 5.43198 2.6589 5.1157 2.86104 4.91214C3.06319 4.70858 3.40583 4.69483 3.62635 4.88142L6.49404 7.30793L9.37732 4.64645Z" fill="black" />
-                </g>
-              </g>
-              <defs>
-                <clipPath id="clip0_1_2994">
-                  <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
-                </clipPath>
-                <clipPath id="clip1_1_2994">
-                  <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
-                </clipPath>
-              </defs>
-            </svg>
-          </Link>
+          <Dropdown>
+            <DropdownTrigger>
+              <Button
+                className="font-bold inline-flex rounded-none outline-none leading-5 py-2 px-0 border-b-2 border-transparent hover:border-b-2 hover:border-blue"
+                variant="light"
+              >
+                Portfolio
 
-          <Link className="font-bold inline-flex items-center leading-5 py-2 border-b-2 border-transparent hover:border-b-2 hover:border-blue" href="#">
-            <span className="mr-1">Language</span>
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clipPath="url(#clip0_1_2994)">
-                <g clipPath="url(#clip1_1_2994)">
-                  <path d="M9.37732 4.64645C9.58885 4.45118 9.93182 4.45118 10.1433 4.64645C10.3549 4.84171 10.3549 5.15829 10.1433 5.35355L6.89335 8.35355C6.68829 8.54284 6.3581 8.54947 6.14432 8.36858L2.89432 5.61858C2.67379 5.43198 2.6589 5.1157 2.86104 4.91214C3.06319 4.70858 3.40583 4.69483 3.62635 4.88142L6.49404 7.30793L9.37732 4.64645Z" fill="black" />
-                </g>
-              </g>
-              <defs>
-                <clipPath id="clip0_1_2994">
-                  <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
-                </clipPath>
-                <clipPath id="clip1_1_2994">
-                  <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
-                </clipPath>
-              </defs>
-            </svg>
-          </Link>
+                <svg className="ml-2" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_2994)">
+                    <g clipPath="url(#clip1_1_2994)">
+                      <path d="M9.37732 4.64645C9.58885 4.45118 9.93182 4.45118 10.1433 4.64645C10.3549 4.84171 10.3549 5.15829 10.1433 5.35355L6.89335 8.35355C6.68829 8.54284 6.3581 8.54947 6.14432 8.36858L2.89432 5.61858C2.67379 5.43198 2.6589 5.1157 2.86104 4.91214C3.06319 4.70858 3.40583 4.69483 3.62635 4.88142L6.49404 7.30793L9.37732 4.64645Z" fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_2994">
+                      <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_2994">
+                      <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </Button>
+
+
+            </DropdownTrigger>
+            <DropdownMenu aria-label="Static Actions">
+
+              <DropdownItem key="new">
+                <Link className="flex items-center space-x-3" href="#Delever">
+                  <Image src="/delever-link.svg" width={48} height={48} alt="icon" />
+                  <span>Delever</span>
+                </Link>
+              </DropdownItem>
+
+              <DropdownItem key="copy">
+                <Link className="flex items-center space-x-3" href="#Smsuz.uz">
+                  <Image src="/sms-link.svg" width={48} height={48} alt="icon" />
+                  <span>Sms.uz</span>
+                </Link>
+              </DropdownItem>
+
+              <DropdownItem key="edit">
+                <Link className="flex items-center space-x-3" href="#Goodzone">
+                  <Image src="/goodzone-link.svg" width={48} height={48} alt="icon" />
+                  <span>Goodzone</span>
+                </Link>
+              </DropdownItem>
+
+              <DropdownItem key="delete">
+                <Link className="flex items-center space-x-3" href="#IMAN">
+                  <Image src="/iman-link.svg" width={48} height={48} alt="icon" />
+                  <span>Iman</span>
+                </Link>
+              </DropdownItem>
+
+            </DropdownMenu>
+          </Dropdown>
+
+          <Dropdown>
+            <DropdownTrigger>
+              <Button
+                className="font-bold inline-flex rounded-none outline-none leading-5 py-2 px-0 border-b-2 border-transparent hover:border-b-2 hover:border-blue"
+                variant="light"
+              >
+                Language
+
+                <svg className="ml-2" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_2994)">
+                    <g clipPath="url(#clip1_1_2994)">
+                      <path d="M9.37732 4.64645C9.58885 4.45118 9.93182 4.45118 10.1433 4.64645C10.3549 4.84171 10.3549 5.15829 10.1433 5.35355L6.89335 8.35355C6.68829 8.54284 6.3581 8.54947 6.14432 8.36858L2.89432 5.61858C2.67379 5.43198 2.6589 5.1157 2.86104 4.91214C3.06319 4.70858 3.40583 4.69483 3.62635 4.88142L6.49404 7.30793L9.37732 4.64645Z" fill="black" />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_2994">
+                      <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
+                    </clipPath>
+                    <clipPath id="clip1_1_2994">
+                      <rect width="13" height="12" fill="white" transform="translate(0.0100098 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </Button>
+
+
+            </DropdownTrigger>
+            <DropdownMenu aria-label="Static Actions">
+
+              <DropdownItem key="new">
+                <button className="flex items-center space-x-3">
+                  <Image src="/lang-rus.svg" width={28} height={28} alt="icon" />
+                  <span>Rus</span>
+                </button>
+              </DropdownItem>
+
+              <DropdownItem key="copy">
+                <button className="flex items-center space-x-3">
+                  <Image src="/lang-eng.svg" width={28} height={28} alt="icon" />
+                  <span>Eng</span>
+                </button>
+              </DropdownItem>
+
+            </DropdownMenu>
+          </Dropdown>
 
           <Link className="text-white bg-blue font-bold inline-block outline-none rounded-md py-3 px-4 w-28 text-center leading-5 hover:scale-110 duration-300 transition-transform" href="#contact">Contact</Link>
 
